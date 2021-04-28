@@ -1,0 +1,124 @@
+h1 {
+  position: absolute;
+  top:50%;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 10px solid red;
+  padding: 10px 14px;
+}
+
+h1:hover{
+  transform: scale(1);
+  color: red;
+}
+
+.barreNav{
+  list-style-type: none;
+  position: fixed;
+  left:8%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  padding: 20px 0;
+  background-color: #333333;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.barreNav li {
+  list-style: none;
+  text-align: center;
+  display:block;
+}
+
+.barreNav li a {
+  padding: 0 50px;
+  text-decoration:none;
+  display:block;
+}
+
+.barreNav li a .icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin:0 auto 10px;
+
+}
+
+.barreNav li a .icon .fa{
+  width: 100%;
+  height: 100%;
+  line-height:40px;
+  font-size: 34px;
+  transition:0.5s;
+  color: red;
+}
+
+.barreNav li a:hover .icon .fa{
+  transform: translateY(-100%);
+}
+
+.barreNav li a .icon .fa:last-child{
+  color: white;
+}
+
+.barreNav li a .name {
+  position: relative;
+  height:20px;
+  width:100px;
+  display: block;
+}
+
+.barreNav li a .name span{
+  position: relative;
+  color: red;
+  line-height:20px;
+  font-size: 18px;
+  display: block;
+  transition:0.5s;
+  overflow: hidden;
+}
+
+.barreNav li a .name span:before{
+  content: attr(data-text);
+  position: absolute;
+  top: -100%;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.barreNav li a:hover .name span{
+  transform : translateY(20px);
+  color:white;
+}
+
+.footer{
+  background-color: black;
+  color:white;
+  position: relative;
+  height:100px;
+  top:130%;
+}
+
+.footer a {
+  color:red;
+}
+
+

@@ -1,0 +1,62 @@
+<div class="banniere-covid">
+  <div class = "container">
+    <div class="row">
+      <div class="name"><h1><span data-text="Test">TEST</span></h1></div>
+      <span class="des">La COVID-19 au Canada</span>
+    </div>
+  </div>
+</div>
+
+
+<!--FILTRE-->
+
+<label>
+  <input (input)="dataSource.filter=$event.target.value" placeholder="Rechercher Une Valeur">
+</label>
+
+
+<table mat-table [dataSource]="dataSource" matSort>
+
+  <ng-container matColumnDef="localite">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header=""> LOCALITE </th>
+    <td mat-cell *matCellDef="let resultat"> {{ resultat.localite }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="total">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header=""> TOTAL </th>
+    <td mat-cell *matCellDef="let resultat"> {{ resultat.total }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="enfant">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header=""> ENFANTS </th>
+    <td mat-cell *matCellDef="let resultat"> {{ resultat.enfant }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="adulte">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header=""> ADULTES </th>
+    <td mat-cell *matCellDef="let resultat"> {{ resultat.adulte }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="aine">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header=""> AINES </th>
+    <td mat-cell *matCellDef="let resultat"> {{ resultat.aine }} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplay"> </tr>
+  <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"> </tr>
+</table>
+
+<mat-paginator [pageSizeOptions]="[2, 5, 10, 15]" showFirstLastButtons>  </mat-paginator>
+
+
+
+
+<!--<ul>-->
+<!--  <li *ngFor="let result of getAll()"> Localité: {{result.localite}}-->
+<!--    Nombre total de cas: {{result.total}}-->
+<!--    Nombre de cas chez les enfants: {{result.enfant}}-->
+<!--    Nombre de cas chez les adultes: {{result.adulte}}-->
+<!--    Nombre de cas chez les ainés: {{result.aine}}-->
+<!--  </li>-->
+<!--</ul>-->
+

@@ -1,0 +1,66 @@
+.banniere-covid{
+  position: relative;
+  height: 500px;
+  top:15%;
+  overflow: hidden;
+  background: url(src/assets/images/TestCovid.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container{
+  position: absolute;
+  top :50%;
+  left :50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  font-size:72px;
+  letter-spacing: 0.2em;
+}
+
+.container h1 span {
+  border: 10px solid red;
+  padding: 20px 14px;
+  display: inline-block;
+}
+
+h1:hover{
+  transform: scale(1);
+  color: red;
+}
+
+.des{
+  margin:20px;
+  display: block;
+  font-size:26px;
+  letter-spacing: 0.2em;
+  text-shadow:0 0 10px black;
+}
+
+.des:hover{
+  transform: scale(1);
+  opacity: 1;
+  color: red;
+}
+
+table {
+  position:absolute;
+  top:90%;
+  width: 98%;
+}
+
+mat-paginator{
+  position:absolute;
+  top:85%;
+}
+
+input{
+  position:absolute;
+  top:640px;
+}

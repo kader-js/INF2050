@@ -1,0 +1,95 @@
+.banniere-covid{
+  position: relative;
+  top:15%;
+  height: 500px;
+  overflow: hidden;
+  background: url(src/assets/images/coviid.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container{
+  position: absolute;
+  top :50%;
+  left :50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  font-size:72px;
+  letter-spacing: 0.2em;
+}
+
+.container h1 span {
+  border: 10px solid red;
+  padding: 15px 14px;
+  display: inline-block;
+}
+
+h1:hover{
+  transform: scale(1);
+  color: red;
+}
+
+
+
+.des{
+  margin:20px;
+  display: block;
+  font-size:26px;
+  text-shadow:0 0 10px black;
+}
+
+.des:hover{
+  transform: scale(1);
+  opacity: 1;
+  color: red;
+}
+
+#carouselTP {
+  width:100%;
+  top: 100px;
+  margin-top: 120px;
+}
+
+.carousel-caption{
+  margin:20px;
+  display: block;
+  font-size:26px;
+  text-shadow:0 0 10px black;
+}
+
+.carousel-caption:hover{
+  transform: scale(1);
+  opacity: 1;
+  color: red;
+}
+
+.carousel-item img{
+  width:100%;
+  height:auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 50px;
+  height:50px;
+  background-color:red;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+}
+
+.carousel-indicators li{
+  background-color:red!important;
+}
+
+.carousel-control-prev{
+  left:5%;
+}
+
+.carousel-control-next{
+  right:5%;
+}

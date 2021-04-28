@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<nav class="navbar navbar-expand text-capitalize justify-content-center">
+  <!-- barre de navigation -->
+  <div class="nav">
+    <ul class="barreNav">
+      <!-- Boutton accueil-->
+      <li>
+        <a routerLink="/accueil">
+          <div class="icon">
+            <span class="fa fa-home" aria-hidden="true"></span>
+            <span class="fa fa-home" aria-hidden="true"></span>
+          </div>
+          <div class="name"><span data-text="accueil">Accueil</span></div>
+        </a>
+      </li>
+      <!-- Boutton Vaccin-->
+      <li>
+        <a routerLink="/vaccin">
+          <div class="icon">
+            <span class="fa fa-medkit" aria-hidden="true"></span>
+            <span class="fa fa-syringe" aria-hidden="true"></span>
+          </div>
+          <div class="name"><span data-text="Vaccin">Vaccin</span></div>
+        </a>
+      </li>
+      <!-- Boutton Prevention-->
+      <li>
+        <a routerLink="/prevention">
+          <div class="icon">
+            <span class="fa fa-globe" aria-hidden="true"></span>
+            <span class="fa fa-heart" aria-hidden="true"></span>
+          </div>
+          <div class="name"><span data-text="Prevention">Prevention</span></div>
+        </a>
+      </li>
+      <!-- Boutton Test-->
+      <li>
+        <a routerLink="/test" >
+          <div class="icon">
+            <span class="fa fa-notes-medical"></span>
+            <span class="fa fa-vial"></span>
+          </div>
+          <div class="name"><span data-text="Test">Test</span></div>
+        </a>
+      </li>
+      <!-- Boutton Maladie-->
+      <li>
+        <a routerLink="/maladie" >
+          <div class="icon">
+            <span class="fa fa-medkit" aria-hidden="true"></span>
+            <span class="fa fa-ambulance" aria-hidden="true"></span>
+          </div>
+          <div class="name"><span data-text="Voyage">Maladie</span></div>
+        </a>
+      </li>
+      <!--Bouton Changement de Langue-->
+      <li>
+        <a href=" https://www.icao.int/covid" target="_blank">
+          <div class="icon">
+            <span class="fa fa-language" aria-hidden="true"></span>
+            <span class="fa fa-globe" aria-hidden="true"></span>
+          </div>
+          <div class="name"><span data-text="Voyage">English</span></div>
+        </a>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+<h1 class="brand">Campagne de Vaccination Organisé par le Groupe JUICE CORP.</h1>
+
+<router-outlet></router-outlet>
+
+
+<footer class="footer">
+  <h3><a href="">Jean-Louis Jousso JOUJ73120103</a></h3>
+  <h3>Site Développé Dans Le Cadre Du Cours
+    <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190">INF3190</a> Session Hiver 2021</h3>
+  <h3><a href="http://www.uqam.ca">UQAM</a></h3>
+</footer>
+

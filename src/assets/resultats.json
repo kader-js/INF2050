@@ -1,0 +1,18 @@
+{"test": [
+  {"localite": "Québec", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Ontario", "total": 600000, "enfant":450000 , "adulte": 75000, "aine": 75000 },
+  {"localite": "Alberta", "total": 500000, "enfant":300000 , "adulte": 100000, "aine": 100000 },
+  {"localite": "Colombie-Britannique", "total": 700000, "enfant":400000 , "adulte": 150000, "aine": 150000 },
+  {"localite": "Saskatchewan", "total": 800000, "enfant":300000 , "adulte": 300000, "aine": 200000 },
+  {"localite": "Manitoba", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Nouvelle-Écosse", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Nouveau-Brunswick", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Terre-Neuve-et-Labrador", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Nunavut", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Île-du-Prince-Edouard", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Yukon", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Territoire du Nord-Ouest", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Québec", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Laval", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 },
+  {"localite": "Longueil", "total": 347000, "enfant":160000 , "adulte": 160000, "aine": 27000 }
+]}

@@ -1,0 +1,56 @@
+<div class="banniere-covid">
+  <div class = "container">
+    <div class="row">
+      <div class="name"><h1><span data-text="Test">VACCIN</span></h1></div>
+      <span class="des">contre le COVID-19 </span>
+    </div>
+  </div>
+</div>
+
+<div class="formulaire">
+  <h2>Prennez Rendez-Vous !</h2>
+  <div id="formvaccin">
+
+  </div>
+  <form id="formulaire">
+    <div class="input_field">
+      <input type="text" placeholder="Nom*" id="nom"  name="nom" pattern="[A-Za-z]{25}" required="required">
+    </div>
+    <div class="input_field">
+      <input type="text" placeholder="Prénom*" id="prenom"  name="prenom" pattern="[A-Za-z]{25}" required="required">
+    </div>
+    <div class="input_field">
+      <input type="text" placeholder="Numéro de Carte RAMQ*" id="ramq"  pattern="[A-Z]{4}[0-9]{8}" name="carteramq" required="required">
+    </div>
+    <div class="input_field">
+      <input type="text" placeholder="Numéro de Téléphone*" id="telephone"  name="telephone" pattern="[0-9]{10}"required="required" >
+    </div>
+    <div class="input_field">
+      <input type="text" placeholder="Courriel*" id="courriel"  name="courriel" pattern="^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$" required="required">
+    </div>
+
+    <input type="file" id="photo"/>
+
+    <fieldset>
+      <div class="travailleur">
+        <p>Travailleur Essentiel:</p>
+        <div class="group">
+          <label><input type="radio" name="travailleur_essentiel"  id="radio1"  value="Oui" required="required">Oui</label>
+        </div>
+        <div class="group">
+          <label><input type="radio" name="travailleur_essentiel"  id="radio2"  value="Non" required="required">Non</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="contact">
+      <p>Vous Préférez Être Contacté Par:</p>
+      <input type="radio" name="contact" id="contact1" required="required"  value="Courriel"> Courriel
+      <input type="radio" name="contact" id="contact2" required="required"   value="Téléphone" /> Téléphone
+    </div>
+
+    <div class="btn">
+      <input type="submit" value="Soumettre" >
+    </div>
+  </form>
+</div>
